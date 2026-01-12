@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+actor "Student" as s
+
+package " UseCase" {
+  usecase "Register for Course" as UC1
+
+}
+
+s --> UC1
+
+@enduml
+
+
